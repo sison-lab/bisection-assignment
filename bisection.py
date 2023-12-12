@@ -1,5 +1,3 @@
-import numpy as np
-
 def bisection_algorithm(function, left_endpoint, right_endpoint, error_tolerance):
     guess = left_endpoint
     error = function(guess)
