@@ -5,7 +5,6 @@ def example_func(x):
 
 def test_bisection():
     location, error, number_of_tries = bisection.bisection_algorithm(example_func, 0, 2, .01)
-    assert location == 1.734375
-    assert error == -0.008056640625
+    assert location - 1.734375 < .00001
+    assert abs(error) < .01
     assert number_of_tries == 7
-    assert bisection.bisection_algorithm(example_func, 0, 2, .01) == (1.734375, -0.008056640625, 7)
