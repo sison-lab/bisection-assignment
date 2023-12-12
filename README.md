@@ -2,7 +2,8 @@
 This example project is written in Python, and tested with pytest.
 
 ### The assignment
-The tests are failing right now because the method isn't outputting the correct string. Fixing this up will make the tests green.
+Write a bisection algorithm whose inputs are a function that will be set equal to zero, the left endpoint, the right endpoint, and an error tolerance. The outpouts should be the location of the root, the approximate value of the function at the found root, and the number of iterations.
+
 
 ### Setup command
 `sudo -H pip3 install pytest`
