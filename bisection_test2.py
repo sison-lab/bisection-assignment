@@ -6,4 +6,4 @@ def example_func(x):
   return 1-x**2
 
 def test_bisection():
-    assert bisection.bisection_algorithm(example_func, 0, 1, .01) == (1.734375, -0.008056640625, 7)
+    assert bisection.bisection_algorithm(example_func, 0, 1, .01) == (1, 0, 0)
